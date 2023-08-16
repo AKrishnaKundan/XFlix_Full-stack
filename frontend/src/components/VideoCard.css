@@ -1,0 +1,25 @@
+.video-card {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    cursor: pointer;
+}
+
+.video-card-image{
+    height: 13rem;
+}
+
+.video-card-text{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.video-card-text:hover{
+}
+
+.video-card:hover{
+    cursor:pointer;
+    filter:brightness(80%);
+    transform: scale(1.025);
+}

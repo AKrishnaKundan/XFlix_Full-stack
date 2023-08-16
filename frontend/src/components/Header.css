@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background: rgb(36, 35, 35);
+}
+
+.icon1{
+    height: 20px;
+}
+.icon2{
+    height: 18px;
+}
+
+.header-logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.search-desktop {
+    display: none !important;
+}
+
+.video-page-height{
+    height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .search-desktop {
+       display: flex !important;
+    }
+    .header {     
+        padding: 2px 10px;
+    }
+    .video-page-height{
+        height: 50px;
+    }
+}
+

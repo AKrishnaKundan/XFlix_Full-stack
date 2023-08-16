@@ -1,0 +1,37 @@
+.upload-video-dialog{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    gap: 12px;
+    padding-top: 10px;
+}
+
+.button{
+    padding: 8px;
+    font-weight: 500;
+}
+
+.button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+#upload-button{
+    background-color: red;
+    border-radius: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+    .upload-video-dialog{
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .upload-video-dialog{
+        width: 35vw;
+    }
+}
+
+
+
